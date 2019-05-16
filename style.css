@@ -1,0 +1,48 @@
+@import url('//fonts.googleapis.com/css?family=Montserrat');
+@import url('//fonts.googleapis.com/css?family=Montserrat|Press+Start+2P');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#main
+{  flex-wrap: wrap;
+   display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+#caption{
+    font-family:'Montserrat', sans-serif;
+}
+
+#title
+{
+   padding: 10px;
+    font-size: 3em;
+
+    font-family: 'Press Start 2P', cursive;
+
+}
+#image-div{flex-grow: 2;
+background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#info{
+    border-radius: 20px;
+    width: 50%;
+    padding: 20px;
+    font-family:  'Montserrat', sans-serif;
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+}
